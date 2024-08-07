@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width:1025px) {
+    html {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.range-input::-webkit-slider-thumb {
+    background-color: #3b82f6; /* Blue color */
+}
+
+
+@media (min-width:768px) {
+    html {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.range-input::-webkit-slider-thumb {
+    background-color: #3b82f6; /* Blue color */
+}
